@@ -1,7 +1,7 @@
 /* Mode hors ligne : à la première ouverture en ligne, la page (autonome) est mise en réserve.
    Ensuite elle est servie depuis la réserve, et rafraîchie en arrière-plan quand le réseau est là.
    VERSION est remplacée par publier.py à chaque mise en ligne, ce qui force le renouvellement. */
-const VERSION = '0.6.0';
+const VERSION = '0.7.0';
 const CACHE = 'parcours-ia-' + VERSION;
 const FICHIERS = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'];
 
